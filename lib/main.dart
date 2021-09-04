@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: MyHomePage(title: '这是测试页面'),
+      home: MyHomePage(title: 'Flutter Root'),
     );
   }
 }
@@ -83,7 +83,7 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text(
-              '我们去掉了中文来看看效果',
+              'Click Button',
             ),
             Text(
               '$_counter',
